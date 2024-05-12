@@ -45,16 +45,16 @@ void loop() {
       case 'R':
         right();
         break;
-      case 'W':  // Abrir la garra
+      case 'G':  // Abrir la garra
         openGarra();
         break;
-      case 'w':  // Cerrar la garra
+      case 'I':  // Cerrar la garra
         closeGarra();
         break;
-      case '1':  // Mover la base hacia adelante
+      case 'H':  // Mover la base hacia adelante
         moveBaseForward();
         break;
-      case '2':  // Mover la base hacia atrás
+      case 'J':  // Mover la base hacia atrás
         moveBaseBackward();
         break;
       case '3':  // Mover el hombro hacia adelante
